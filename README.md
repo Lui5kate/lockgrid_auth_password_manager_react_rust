@@ -135,7 +135,7 @@ lockgrid-auth/
 ### Clone & Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/lockgrid-auth.git
+git clone https://github.com/Lui5kate/lockgrid_auth_password_manager_react_rust.git
 cd lockgrid-auth
 npm install
 ```

@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: Security Vulnerability
-    url: https://github.com/YOUR_USERNAME/lockgrid-auth/blob/main/SECURITY.md
+    url: https://github.com/Lui5kate/lockgrid_auth_password_manager_react_rust/blob/main/SECURITY.md
     about: Please report security issues privately using our responsible disclosure process.

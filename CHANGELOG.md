@@ -67,5 +67,5 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Theme preference
 - PIN management
 
-[Unreleased]: https://github.com/YOUR_USERNAME/lockgrid-auth/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/YOUR_USERNAME/lockgrid-auth/releases/tag/v0.1.0
+[Unreleased]: https://github.com/Lui5kate/lockgrid_auth_password_manager_react_rust/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/Lui5kate/lockgrid_auth_password_manager_react_rust/releases/tag/v0.1.0
