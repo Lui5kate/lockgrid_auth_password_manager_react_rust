@@ -1,0 +1,69 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+src-tauri/target/
+
+# IDE & editor
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Environment — never commit secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Tauri build artifacts
+src-tauri/WixTools/
+src-tauri/gen/
+
+# Database files (sensitive — contain encrypted user data)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.lockgrid
+
+# Backup files (contain encrypted credential data)
+*.lgbk
+
+# Rust
+src-tauri/Cargo.lock.bak
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Claude Code local settings
+.claude/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Tauri updater keys (never commit private keys)
+src-tauri/updater-key.pem

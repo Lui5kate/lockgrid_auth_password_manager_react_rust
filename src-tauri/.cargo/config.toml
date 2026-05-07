@@ -1,0 +1,5 @@
+# Environment variables injected into every cargo invocation for this crate.
+# Required because libsqlite3-sys (SQLCipher feature) links against OpenSSL
+# and fails its build.rs when OPENSSL_DIR is unset.
+[env]
+OPENSSL_DIR = "C:\\Program Files\\OpenSSL-Win64"

@@ -1,0 +1,25 @@
+# Normalize line endings for all text files
+* text=auto
+
+# Force LF for source files
+*.ts    text eol=lf
+*.tsx   text eol=lf
+*.rs    text eol=lf
+*.toml  text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.css   text eol=lf
+*.html  text eol=lf
+*.js    text eol=lf
+
+# Binary files — do not touch
+*.png   binary
+*.ico   binary
+*.icns  binary
+*.dll   binary
+*.lib   binary
+*.exe   binary
+*.woff  binary
+*.woff2 binary
